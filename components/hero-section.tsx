@@ -46,7 +46,7 @@ export function HeroSection() {
       id="hero"
       className="min-h-[60vh] flex items-center justify-center px-4 py-20"
     >
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
           {/* Profile Image */}
           <div className="shrink-0">
@@ -71,7 +71,7 @@ export function HeroSection() {
             </p>
 
             {/* Technologies */}
-            <div className="flex flex-wrap justify-center md:justify-start gap-2 mb-6">
+            <div className="max-w-2xl flex flex-wrap justify-center md:justify-start gap-2 mb-6">
               {technologies.map((tech) => (
                 <Badge
                   key={tech.name}
@@ -85,13 +85,23 @@ export function HeroSection() {
             </div>
 
             {/* Bio */}
+            <p className="text-muted-foreground leading-relaxed mb-2 max-w-2xl">
+              ¡Hola! Soy Diego, tengo 27 años y soy Técnico Analista Programador
+              apasionado por construir aplicaciones web modernas y funcionales.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-2 max-w-2xl">
+              Me formé en INACAP (Técnico Analista Programador) y luego hice el
+              Bootcamp Full Stack JavaScript en Desafío Latam para profundizar
+              mis conocimientos en el mundo del desarrollo web usando el stack
+              MERN. También tengo experiencia real en Angular, TypeScript y
+              soporte TI (Jira, redes, hardware). Me motiva aprender rápido, y
+              me divierte resolver problemas de logica y entregar soluciones que
+              realmente sirvan.
+            </p>
             <p className="text-muted-foreground leading-relaxed mb-8 max-w-2xl">
-              Apasionado por crear soluciones integrales. Mi fuerte es el
-              desarrollo frontend donde aplico patrones de diseño modernos y
-              arquitecturas limpias para crear componentes altamente escalables.
-              Domino la gestión de bases de datos, siempre bajo estándares de
-              Clean Code y optimización de rendimiento. Creo en el código bien
-              estructurado como base para productos exitosos.
+              ¡Bienvenido a mi portafolio! Aquí puedes ver mis proyectos,
+              experiencia y cómo puedo ayudarte a llevar tus ideas al siguiente
+              nivel.
             </p>
 
             {/* Contact Actions */}

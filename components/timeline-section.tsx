@@ -39,7 +39,7 @@ const timelineItems: TimelineItem[] = [
     subtitle: "Latam Trade Capital Chile",
     date: "Junio 2024 - Agosto 2024",
     description:
-      "Resolución de incidencias vía Jira en entorno financiero. Soporte técnico remoto/presencial, diagnóstico de hardware y mantenimiento. Optimización de componentes Angular 7 en plataformas internas.",
+      "Mi primera experiencia laboral formal fue en el sector financiero, donde tuve la oportunidad de trabajar simultáneamente en desarrollo web y soporte TI. Como desarrollador, me enfoqué en mejorar una plataforma interna basada en Angular 7: optimicé componentes existentes, corregí errores, implementé nuevas características con TypeScript y SCSS a partir de tickets reales, y aseguré su calidad mediante pruebas unitarias con Jasmine. Complementariamente, en el área de soporte resolví incidencias diarias usando Jira, realicé diagnósticos y mantenimientos de hardware/redes (tanto remoto con TeamViewer como presencial), y gestioné el inventario de equipos. Este rol dual me enseñó a conectar el código con el impacto real en los usuarios y la operación del negocio, sentando una base sólida para mi perfil full-stack híbrido.",
     skills: [
       "Angular",
       "Angular Material",
