@@ -29,56 +29,47 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Api E-commerce Node.js",
+    title: "Api E-commerce Nest.js",
     id: 1,
     description:
-      "API RESTful robusta y modular para un sistema de comercio electrónico, construida con Node.js, Express.js y MongoDB/Mongoose. La arquitectura del proyecto sigue rigurosos Patrones de Diseño (Service, Repository, Provider) y aplica Inyección de Dependencias (DI), garantizando alta testabilidad (probada con Jest/Sinon) y un fuerte desacoplamiento de capas.",
+      "API RESTful robusta y modular para un sistema Ecommerce construida con Nest.js y PostgreSQL. Sigue Patrones de Diseño (Service, Repository, Provider).",
     image: "/projects-img/api.webp",
-    technologies: ["NodeJS", "ExpressJS", "MongoDB", "Javascript", "Jest"],
+    technologies: [
+      "Nest.js",
+      "PostgreSQL",
+      "TypeScript",
+      "Docker",
+      "TypeORM",
+      "MercadoPago",
+      "Nodemailer",
+      "Scalar",
+    ],
     links: {
       backend: "https://github.com/R3dgrave/ecommerce-nodejs",
     },
   },
   {
-    title: "Inmobiliaria ADL",
+    title: "E-commerce Next.js",
     id: 2,
     description:
-      "Proyecto de práctica desarrollado para el módulo de Programación Dinámica con JavaScript. Consiste en un sitio web de bienes raíces que renderiza propiedades de forma dinámica, permitiendo filtrar por disponibilidad de mascotas, tipo de operación (venta o alquiler) y búsqueda por nombre.",
-    image: "/projects-img/inmobiliaria-ui.webp",
-    technologies: ["Html5", "Css3", "Javascript", "Bootstrap", "FontAwesome"],
+      "Ecommerce desarrollado con Next.js; se usó la API DummyJSON para obtener los productos y verificar el login. Se pueden gestionar direcciones y ver los pedidos hechos anteriormente.",
+    image: "/projects-img/ecommerce-frontend.webp",
+    technologies: [
+      "Next.js",
+      "TailwindCss",
+      "TypeScript",
+      "Zustand",
+      "ShadCn",
+      "vitest",
+    ],
     links: {
-      frontend: "https://github.com/R3dgrave/inmobiliaria-adl",
-      demo: "https://r3dgrave.github.io/inmobiliaria-adl",
-    },
-  },
-  {
-    title: "Donut Club",
-    id: 3,
-    description:
-      "Donut Club es una aplicación web de alto rendimiento diseñada para la venta de donas artesanales en Santiago. El proyecto se enfoca en una experiencia de usuario fluida, visualmente atractiva y optimizada técnica mente para obtener los mejores puntajes en Core Web Vitals.",
-    image: "/projects-img/donutclub.webp",
-    technologies: ["React", "Html5", "Css3", "Javascript", "Bootstrap"],
-    links: {
-      frontend: "https://github.com/R3dgrave/donut-club",
-      demo: "https://r3dgrave.github.io/donut-club/",
-    },
-  },
-  {
-    title: "Sistema Médico",
-    id: 4,
-    description:
-      "Desarrollé una solución full-stack para digitalizar la gestión de consultorios médicos, abordando las ineficiencias de los procesos manuales. El proyecto se centra en la optimización de la administración de pacientes, citas y, especialmente, en la creación de una robusta Historia Clínica Electrónica (HCE).",
-    image: "/projects-img/smedico_login_1.webp",
-    technologies: ["React", "Typescript", "NodeJS", "ExpressJS", "Tailwind"],
-    links: {
-      frontend: "https://github.com/R3dgrave/lafleur-sistemamedico-ui",
-      backend: "https://github.com/R3dgrave/lafleur-sistemamedico-api",
-      demo: "https://lafleur-sistemamedico-ui.vercel.app/",
+      frontend: "https://github.com/diegoabmdev/ecommerce-frontend",
+      demo: "https://ecommerce-frontend-orcin-two.vercel.app/",
     },
   },
   {
     title: "Dashboard Financiero Personal",
-    id: 5,
+    id: 3,
     description:
       "Este proyecto es un dashboard financiero personal desarrollado para ayudarte a controlar y visualizar tus finanzas de manera sencilla e intuitiva. Permite a los usuarios registrar ingresos y gastos, obteniendo una visión clara de su situación financiera a través de resúmenes y gráficos. La aplicación es ideal para cualquiera que quiera tomar el control de su presupuesto personal.",
     image: "/projects-img/fd-ui.webp",
@@ -96,8 +87,45 @@ const projects: Project[] = [
     },
   },
   {
-    title: "TechStore",
+    title: "Sistema Médico",
+    id: 4,
+    description:
+      "Desarrollé una solución full-stack para digitalizar la gestión de consultorios médicos, abordando las ineficiencias de los procesos manuales. El proyecto se centra en la optimización de la administración de pacientes, citas y, especialmente, en la creación de una robusta Historia Clínica Electrónica (HCE).",
+    image: "/projects-img/smedico_login_1.webp",
+    technologies: ["React", "Typescript", "NodeJS", "ExpressJS", "Tailwind"],
+    links: {
+      frontend: "https://github.com/R3dgrave/lafleur-sistemamedico-ui",
+      backend: "https://github.com/R3dgrave/lafleur-sistemamedico-api",
+      demo: "https://lafleur-sistemamedico-ui.vercel.app/",
+    },
+  },
+  {
+    title: "Inmobiliaria ADL",
+    id: 5,
+    description:
+      "Proyecto de práctica desarrollado para el módulo de Programación Dinámica con JavaScript. Consiste en un sitio web de bienes raíces que renderiza propiedades de forma dinámica, permitiendo filtrar por disponibilidad de mascotas, tipo de operación (venta o alquiler) y búsqueda por nombre.",
+    image: "/projects-img/inmobiliaria-ui.webp",
+    technologies: ["Html5", "Css3", "Javascript", "Bootstrap", "FontAwesome"],
+    links: {
+      frontend: "https://github.com/R3dgrave/inmobiliaria-adl",
+      demo: "https://r3dgrave.github.io/inmobiliaria-adl",
+    },
+  },
+  {
+    title: "Donut Club",
     id: 6,
+    description:
+      "Donut Club es una aplicación web de alto rendimiento diseñada para la venta de donas artesanales en Santiago. El proyecto se enfoca en una experiencia de usuario fluida, visualmente atractiva y optimizada técnica mente para obtener los mejores puntajes en Core Web Vitals.",
+    image: "/projects-img/donutclub.webp",
+    technologies: ["React", "Html5", "Css3", "Javascript", "Bootstrap"],
+    links: {
+      frontend: "https://github.com/R3dgrave/donut-club",
+      demo: "https://r3dgrave.github.io/donut-club/",
+    },
+  },
+  {
+    title: "TechStore",
+    id: 7,
     description:
       "Tienda online de smartphones construida con Bootstrap 5 y JavaScript vanilla.",
     image: "/projects-img/tech-store.webp",
@@ -105,18 +133,6 @@ const projects: Project[] = [
     links: {
       frontend: "https://github.com/R3dgrave/tienda-celulares",
       demo: "https://r3dgrave.github.io/tienda-celulares/",
-    },
-  },
-  {
-    title: "Proyecto Conversor de Monedas",
-    id: 7,
-    description:
-      "Aplicación web que permite convertir entre diferentes monedas utilizando tasas de cambio en tiempo real, graficos usando la libreria chart.js",
-    image: "/projects-img/conversor.webp",
-    technologies: ["Html5", "Css3", "Javascript"],
-    links: {
-      frontend: "https://github.com/R3dgrave/Prueba---Conversor-de-monedas",
-      demo: "https://r3dgrave.github.io/Prueba---Conversor-de-monedas/",
     },
   },
 ];
