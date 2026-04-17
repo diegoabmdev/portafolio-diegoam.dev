@@ -45,7 +45,8 @@ const projects: Project[] = [
       "Scalar",
     ],
     links: {
-      backend: "https://github.com/R3dgrave/ecommerce-nodejs",
+      backend: "https://github.com/diegoabmdev/ecommerce-backend",
+      demo: "https://diegoabmdev-ecommerce.onrender.com/",
     },
   },
   {
@@ -71,7 +72,7 @@ const projects: Project[] = [
     title: "Dashboard Financiero Personal",
     id: 3,
     description:
-      "Este proyecto es un dashboard financiero personal desarrollado para ayudarte a controlar y visualizar tus finanzas de manera sencilla e intuitiva. Permite a los usuarios registrar ingresos y gastos, obteniendo una visión clara de su situación financiera a través de resúmenes y gráficos. La aplicación es ideal para cualquiera que quiera tomar el control de su presupuesto personal.",
+      "Dashboard financiero personal desarrollado para ayudarte a controlar y visualizar tus finanzas de manera sencilla e intuitiva. Permite a los usuarios registrar ingresos y gastos, resúmenes y gráficos.",
     image: "/projects-img/fd-ui.webp",
     technologies: [
       "React",
@@ -82,20 +83,20 @@ const projects: Project[] = [
       "Vitest",
     ],
     links: {
-      frontend: "https://github.com/R3dgrave/financial-dashboard/",
+      frontend: "https://github.com/diegoabmdev/financial-dashboard",
       demo: "https://financial-dashboard-swart-one.vercel.app/",
     },
   },
   {
-    title: "Sistema Médico",
+    title: "Sistema Gestion Matrona",
     id: 4,
     description:
-      "Desarrollé una solución full-stack para digitalizar la gestión de consultorios médicos, abordando las ineficiencias de los procesos manuales. El proyecto se centra en la optimización de la administración de pacientes, citas y, especialmente, en la creación de una robusta Historia Clínica Electrónica (HCE).",
+      "Solución full-stack para digitalizar la gestión de consultorios médicos, abordando las ineficiencias de los procesos manuales. Optimización de la administración de pacientes, citas y, especialmente, en la creación de una robusta Historia Clínica Electrónica (HCE).",
     image: "/projects-img/smedico_login_1.webp",
     technologies: ["React", "Typescript", "NodeJS", "ExpressJS", "Tailwind"],
     links: {
-      frontend: "https://github.com/R3dgrave/lafleur-sistemamedico-ui",
-      backend: "https://github.com/R3dgrave/lafleur-sistemamedico-api",
+      frontend: "https://github.com/diegoabmdev/lafleur-sistemamedico-ui",
+      backend: "https://github.com/diegoabmdev/lafleur-sistemamedico-api",
       demo: "https://lafleur-sistemamedico-ui.vercel.app/",
     },
   },

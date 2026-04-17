@@ -27,8 +27,8 @@ const technologies = [
 const contactInfo = {
   email: "diegoabm.dev@gmail.com",
   phone: "+56 9 7689 6260",
-  github: "https://github.com/r3dgrave",
-  linkedin: "https://linkedin.com/in/diegoabantomendoza",
+  github: "https://github.com/diegoabmdev",
+  linkedin: "https://www.linkedin.com/in/diegoabmendoza/",
   cv: "https://drive.google.com/file/d/1Vxpw2UGRLClQwPHgxabM3tbmUcKmjh-_/view",
 };
 

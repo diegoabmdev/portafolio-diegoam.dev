@@ -13,7 +13,7 @@ export function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/r3dgrave"
+              href="https://github.com/diegoabmdev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -22,7 +22,7 @@ export function Footer() {
               <span className="sr-only">GitHub</span>
             </a>
             <a
-              href="https://linkedin.com/in/diegoabantomendoza"
+              href="https://www.linkedin.com/in/diegoabmendoza/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
